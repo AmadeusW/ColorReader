@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CXFtoCSV")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Reads CXF files and writes CSV files")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Amadeusz Wieczorek")]
 [assembly: AssemblyProduct("CXFtoCSV")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Amadeusz Wieczorek 2015")]
+[assembly: AssemblyTrademark("Amadeusz Wieczorek")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
