@@ -14,7 +14,10 @@ namespace CXFtoCSV
             foreach (var file in files)
             {
                 var targetPath = Helpers.GetTargetPath(file);
-
+                StringBuilder sb = new StringBuilder();
+                sb.AppendLine("index,L,a,b,ColorName");
+                Helpers.ParseXml(file, sb);
+                File.WriteAllText(targetPath, sb.ToString());
             }
         }
 
